@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .text-center{
+        text-align: center;
+    }
+
+    .font-size-large{
+        font-size: large;
+    }
+
+    .text-white{
+        color: white;
+    }
+
+    .bg-orange{
+        background-color: orange;
+    }
+
+    .bg-lightgreen{
+        background-color: lightgreen;
+    }
+
+    .bg-gray{
+        background-color: rgb(94, 85, 85);
+    }
+
+    .bg-black{
+        background-color: black;
+    }
+
+    .border{
+        border: solid;
+    }
+
+    .flex{
+        display: flex;
+    }
+
+    .justify-center{
+        justify-content: center;
+    }
+
+    .justify-around{
+        justify-content: space-around;
+    }
+
+    .w-25{
+        width: 25%;
+    }
+
+    .w-50{
+        width: 50%;
+    }
+
+    .w-100{
+        width: 100%;
+    }
+    
+
+
+    
+</style>
+
+<body class="bg-lightgreen">
+    <div>
+        <h1 class="text-center bg-orange">Fashionista Section Counter</h1>
+        <h3>ABOUT US:</h3>
+        <p>THE FASHION STORE caters to thoughtful shoppers who appreciate unique designs and top quality pieces you can't just find anywhere else. We are constantly curating fresh new collections and looking for the next big thing our customers will love. Founded in 2019, we are proud to be your Online Clothing Shop that you can rely on for our expert service and care.  </p>
+<h3>Our Mission:</h3>
+<p>To make a difference through our branding by staying ahead of fashion trends, defining style and giving customers what they want. </p>
+<h3>Our Vision:</h3>
+<p>To change the way the society connects with the fashion industry by providing our customers with products that are ethically and responsibly sourced. </p>
+
+<div class="flex justify-around">
+    <div class="border w-25 bg-gray text-center">
+        <img class="w-100" src="https://i.pinimg.com/1200x/d1/42/16/d14216edc18b5fc802efba03d0ae0770.jpg" alt="">
+        <img class="w-25" src="https://static-00.iconduck.com/assets.00/person-icon-512x512-5lhrcpms.png" alt="">
+        <p class="font-size-large text-white">11+</p>
+        <p class="font-size-large text-white">Partners</p>
+    </div>
+    <div class="border w-25 bg-gray text-center">
+        <img class="w-50" src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/3151312/settings-clipart-sm.png" alt="">
+        <br>
+        <br>
+        <img class="w-25" src="checkmark.png" alt="">
+        <p class="font-size-large text-white">55+</p>
+        <p class="font-size-large text-white">Projects</p>
+    </div>
+    <div class="border w-25 bg-gray text-center">
+        <img class="w-100" src="Happy Clients.png" alt="">
+        <img class="w-25" src="data:image/png;base64,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" alt="">
+        <p class="font-size-large text-white">100+</p>
+        <p class="font-size-large text-white">Happy Clients</p>
+    </div>
+    <div class="border w-25 bg-gray text-center ">
+        first division
+    </div>
+
+   
+</div>
+    </div>
+</body>
+</html>
